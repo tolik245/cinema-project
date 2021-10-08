@@ -1,0 +1,37 @@
+body {
+  background-color: #621402;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1170px;
+  margin: auto; /*чтобы контейнер находился в середине*/
+}
+.header {
+    display: flex;
+    align-items: center;/*выравнивает элементы по центру*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.menu {
+  list-style-type: none; /* сбрасывает оформление списка*/
+  display: flex; /*выстраивает элементы погоризонтали*/
+  margin: 0;
+  margin-left: 17px;
+}
+.menu-link {
+  color: white;
+  text-decoration: none; /*убирает подчеркивание ссылок*/
+  margin-right: 25px;
+}
+.user {
+    margin-left: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-left: 11px;
+}
